@@ -1,0 +1,40 @@
+﻿Построение начато 03.04.2017 14:43:40.
+     1>Проект "G:\Лобач\2 КУРС\АиСД\Таблицы\Tables-my\Polinom-master\test\test.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\test.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         E:\Programs\VisualStudio2010\VC\bin\CL.exe /c /I../gtest /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test_main.cpp test_pol.cpp
+         test_pol.cpp
+     1>g:\лобач\2 курс\аисд\таблицы\tables-my\polinom-master\test\test_pol.cpp(113): warning C4002: слишком много фактических параметров для макроопределения "ASSERT_NO_THROW"
+     1>g:\лобач\2 курс\аисд\таблицы\tables-my\polinom-master\test\test_pol.cpp(123): warning C4002: слишком много фактических параметров для макроопределения "ASSERT_NO_THROW"
+     1>g:\лобач\2 курс\аисд\таблицы\tables-my\polinom-master\gtest\gtest.h(18863): warning C4805: ==: небезопасное смешение типа "const int" и типа "const bool" в операции
+                 g:\лобач\2 курс\аисд\таблицы\tables-my\polinom-master\gtest\gtest.h(18940): см. ссылку на создание экземпляров функции шаблон при компиляции "testing::AssertionResult testing::internal::CmpHelperEQ<T1,T2>(const char *,const char *,const T1 &,const T2 &)"
+                 with
+                 [
+                     T1=int,
+                     T2=bool
+                 ]
+                 g:\лобач\2 курс\аисд\таблицы\tables-my\polinom-master\test\test_pol.cpp(27): см. ссылку на создание экземпляров функции шаблон при компиляции "testing::AssertionResult testing::internal::EqHelper<true>::Compare<int,bool>(const char *,const char *,const T1 &,const T2 &,testing::internal::EnableIf<true>::type *)"
+                 with
+                 [
+                     T1=int,
+                     T2=bool
+                 ]
+         test_main.cpp
+         Создание кода...
+       Link:
+         E:\Programs\VisualStudio2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Лобач\2 КУРС\АиСД\Таблицы\Tables-my\Polinom-master\Polinom\Polinom\Debug\test.exe" /INCREMENTAL:NO /NOLOGO gtest.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Лобач\2 КУРС\АиСД\Таблицы\Tables-my\Polinom-master\Polinom\Polinom\Debug\test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Лобач\2 КУРС\АиСД\Таблицы\Tables-my\Polinom-master\Polinom\Polinom\Debug\test.lib" /MACHINE:X86 Debug\test_main.obj
+         Debug\test_pol.obj
+     1>test_main.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+     1>gtest.lib(gtest-all.obj) : warning LNK4099: "vc100.pdb" PDB не найден с "gtest.lib(gtest-all.obj)" или на "G:\Лобач\2 КУРС\АиСД\Таблицы\Tables-my\Polinom-master\Polinom\Polinom\Debug\vc100.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+         test.vcxproj -> G:\Лобач\2 КУРС\АиСД\Таблицы\Tables-my\Polinom-master\Polinom\Polinom\Debug\test.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\Лобач\2 КУРС\АиСД\Таблицы\Tables-my\Polinom-master\Polinom\Polinom\Debug\test.exe;#1" /manifest Debug\test.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\test.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\test.lastbuildstate".
+     1>Построение проекта "G:\Лобач\2 КУРС\АиСД\Таблицы\Tables-my\Polinom-master\test\test.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.72

@@ -1,0 +1,20 @@
+﻿Построение начато 06.03.2017 5:41:13.
+     1>Проект "G:\Лобач\2 КУРС\АиСД\Полином\Polinom-master\Polinom-master\gtest\gtest.vcxproj" в узле 5 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\gtest.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Debug\gtest.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         E:\Programs\VisualStudio2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "gtest-all.cc"
+         gtest-all.cc
+       Lib:
+         E:\Programs\VisualStudio2010\VC\bin\Lib.exe /OUT:"G:\Лобач\2 КУРС\АиСД\Полином\Polinom-master\Polinom-master\Polinom\Polinom\Debug\gtest.lib" /NOLOGO "Debug\gtest-all.obj"
+         gtest.vcxproj -> G:\Лобач\2 КУРС\АиСД\Полином\Polinom-master\Polinom-master\Polinom\Polinom\Debug\gtest.lib
+       FinalizeBuildStatus:
+         Файл "Debug\gtest.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\gtest.lastbuildstate".
+     1>Построение проекта "G:\Лобач\2 КУРС\АиСД\Полином\Polinom-master\Polinom-master\gtest\gtest.vcxproj" завершено (целевые объекты rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.30

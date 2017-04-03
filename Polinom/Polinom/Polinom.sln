@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Polinom", "Polinom\Polinom.vcxproj", "{2ADD332A-B982-4040-9093-BBE88B6F6481}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "samples", "..\..\samples\samples.vcxproj", "{EDFA3FAC-7AE1-4DFF-B278-13F39BAFBCB1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "..\..\test\test.vcxproj", "{2341D028-1EDA-40DF-8DE7-CAE1F84EC719}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest", "..\..\gtest\gtest.vcxproj", "{FD2FC938-FAA2-4847-BA23-DC1E8C691A4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ADD332A-B982-4040-9093-BBE88B6F6481}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2ADD332A-B982-4040-9093-BBE88B6F6481}.Debug|Win32.Build.0 = Debug|Win32
+		{2ADD332A-B982-4040-9093-BBE88B6F6481}.Release|Win32.ActiveCfg = Release|Win32
+		{2ADD332A-B982-4040-9093-BBE88B6F6481}.Release|Win32.Build.0 = Release|Win32
+		{EDFA3FAC-7AE1-4DFF-B278-13F39BAFBCB1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EDFA3FAC-7AE1-4DFF-B278-13F39BAFBCB1}.Debug|Win32.Build.0 = Debug|Win32
+		{EDFA3FAC-7AE1-4DFF-B278-13F39BAFBCB1}.Release|Win32.ActiveCfg = Release|Win32
+		{EDFA3FAC-7AE1-4DFF-B278-13F39BAFBCB1}.Release|Win32.Build.0 = Release|Win32
+		{2341D028-1EDA-40DF-8DE7-CAE1F84EC719}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2341D028-1EDA-40DF-8DE7-CAE1F84EC719}.Debug|Win32.Build.0 = Debug|Win32
+		{2341D028-1EDA-40DF-8DE7-CAE1F84EC719}.Release|Win32.ActiveCfg = Release|Win32
+		{2341D028-1EDA-40DF-8DE7-CAE1F84EC719}.Release|Win32.Build.0 = Release|Win32
+		{FD2FC938-FAA2-4847-BA23-DC1E8C691A4C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD2FC938-FAA2-4847-BA23-DC1E8C691A4C}.Debug|Win32.Build.0 = Debug|Win32
+		{FD2FC938-FAA2-4847-BA23-DC1E8C691A4C}.Release|Win32.ActiveCfg = Release|Win32
+		{FD2FC938-FAA2-4847-BA23-DC1E8C691A4C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

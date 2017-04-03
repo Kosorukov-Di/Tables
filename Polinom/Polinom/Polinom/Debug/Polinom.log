@@ -1,0 +1,14 @@
+﻿Построение начато 03.04.2017 22:44:04.
+     1>Проект "G:\Лобач\2 КУРС\АиСД\Таблицы\Tables-my\Polinom-master\Polinom\Polinom\Polinom\Polinom.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\Polinom.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Debug\Polinom.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       FinalizeBuildStatus:
+         Файл "Debug\Polinom.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Polinom.lastbuildstate".
+     1>Построение проекта "G:\Лобач\2 КУРС\АиСД\Таблицы\Tables-my\Polinom-master\Polinom\Polinom\Polinom\Polinom.vcxproj" завершено (целевые объекты rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.04
